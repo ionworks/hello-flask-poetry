@@ -6,8 +6,10 @@ authors = ["Donatas Rasiukevicius <donatas@fly.io>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">=3.10,<3.13"
 flask = "^3.0.3"
+gunicorn = "^22.0.0"
+pybamm = "^24.5"
 
 
 [build-system]
